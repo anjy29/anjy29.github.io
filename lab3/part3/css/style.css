@@ -27,10 +27,8 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  justify-content: space-around;
-  margin: 0;
+  justify-content: space-between;
   padding: 0;
 }
 
