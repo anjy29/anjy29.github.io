@@ -23,12 +23,13 @@ nav {
   padding: 0.5em 0;
   position: sticky;
   top: 0;
-  z-index: 100;
+  left: 0;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
+  list-style: none;
   padding: 0 10px;
 }
 
