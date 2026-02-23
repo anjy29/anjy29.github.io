@@ -71,11 +71,6 @@ aside {
   padding: 0;
 }
 
-.photos li {
-  margin: 0;
-  padding: 0;
-}
-
 .photos li img {
   width: 100%;
   display: block;
