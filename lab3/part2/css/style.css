@@ -122,3 +122,15 @@ aside ul {
 aside li {
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 0.6rem 0;
+  }
+}
