@@ -57,3 +57,24 @@ article {
 aside {
   flex: 1;
 }
+
+.feature {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 200px;
+}
+
+.photos {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.photos li img {
+  width: 100%;
+  display: block;
+  border: 1px solid black;
+}
