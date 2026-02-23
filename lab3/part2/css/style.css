@@ -38,3 +38,25 @@ footer {
 footer p {
   text-align: center;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+
+section p:first-of-type {
+  text-indent: 2rem;
+}
+
+p {
+  margin: 1rem 0;
+  letter-spacing: 0.3px;
+}
