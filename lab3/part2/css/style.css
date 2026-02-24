@@ -3,7 +3,7 @@
 }
  
 body {
-  font-family: "Quicksand", serif;
+  font-family: "Merriweather", serif;
   line-height: 1.6;
   margin: 0 auto;
   padding: 0 20px;
@@ -13,7 +13,7 @@ body {
 
 
 .google-sans-heading {
-  font-family: "Google Sans", sans-serif;
+  font-family: "Google Sans", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -21,7 +21,7 @@ body {
     "GRAD" 0;
 }
 .quicksand-text {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -31,27 +31,24 @@ html {
   background-color: white;
 }
 
-h1, h2{
-  font-family: "Roboto Slab", serif;
-
-}
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 
 header {
   border-bottom: 5px solid #aa6666;
-
 }
 
 h1 {
-  font-family: "Google Sans", serif;
-  font-size: 2,5rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5rem;
   text-align: center;
   letter-spacing: 2px;
+  margin: 20px 0;
+
 }
 
 
 h2 {
-  font-family: "Google Sans", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 1.8rem;
   margin-bottom: 0;
   letter-spacing: 1px;
@@ -59,7 +56,7 @@ h2 {
 
 footer {
   border-top: 5px solid #aa6666;
-  padding: 10px 0;
+
 }
 
 footer p {
@@ -95,13 +92,12 @@ a:focus {
 }
 
 a[href^="http"]::after {
-
   content: "";
   display: inline-block;
   width: 0.8em;
   height: 0.8em;
   margin-left: 0.25em;
-
+  background-repeat: no-repeat;
   background-size: 100%;
   background-image: url("../images/external-link-52.png");
 }
@@ -112,6 +108,8 @@ ul, ol {
   line-height: 1.6;
 }
 
+
+
 ol li {
   list-style-type: decimal;
 }
@@ -119,9 +117,11 @@ ol li {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav li {
+  list-style: none;
   margin-bottom: 1rem;
 }
 
@@ -129,20 +129,12 @@ nav a {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  background-color: #f7f7f7;
+  background-color: white;
   color: #aa6666;
+  border: 2px solid #aa6666;
   padding: 0.8rem 0;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
-}
-
-aside ul {
-  list-style: none;
-  padding-left: 1.;
-}
-
-aside li {
-  margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -154,5 +146,9 @@ aside li {
   nav a {
     font-size: 1rem;
     padding: 0.6rem 0;
+  }
+  nav a:hover {
+  background-color: #aa6666;
+  color: white;
   }
 }
