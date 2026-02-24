@@ -19,11 +19,12 @@ body {
 }
 
 nav {
-  background-color: black;
+  background-color: #e5e5e5;
   padding: 0.5em 0;
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 
 nav ul {
@@ -38,9 +39,10 @@ nav a {
   padding: 0.5em 1em;
   display: block;
   text-align: center;
+  font-weight: bold;
 }
 
-.grid {
+.layout {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
@@ -60,10 +62,11 @@ aside {
 .feature {
   float: left;
   margin: 0 20px 20px 0;
-  width: 200px;
+  width: 300px;
 }
 
 .photos {
+  
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
