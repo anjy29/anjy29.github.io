@@ -1,6 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
 }
+
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+
+footer {
+  border-top: 5px solid #aa6666;
+
+}
+
+footer p {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 20px 0;
+
+}
+
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+
+p {
+  margin: 1rem 0;
+  letter-spacing: 0.3px;
+}
+
+section p:first-of-type {
+  text-indent: 2rem;
+}
+
+
+
+a {
+  color: #aa6666;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../images/external-link-52.png");
+}
+
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  line-height: 1.6;
+}
+
+
  
 body {
   font-family: "Merriweather", serif;
@@ -29,83 +114,6 @@ body {
 
 html {
   background-color: white;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
-
-header {
-  border-bottom: 5px solid #aa6666;
-}
-
-h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 2.5rem;
-  text-align: center;
-  letter-spacing: 2px;
-  margin: 20px 0;
-
-}
-
-
-h2 {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.8rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-footer {
-  border-top: 5px solid #aa6666;
-
-}
-
-footer p {
-  text-align: center;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-
-section p:first-of-type {
-  text-indent: 2rem;
-}
-
-p {
-  margin: 1rem 0;
-  letter-spacing: 0.3px;
-}
-
-a {
-  color: #aa6666;
-  text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
-  outline: none;
-}
-
-a[href^="http"]::after {
-  content: "";
-  display: inline-block;
-  width: 0.8em;
-  height: 0.8em;
-  margin-left: 0.25em;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url("../images/external-link-52.png");
-}
-
-ul, ol {
-  margin: 1rem 0;
-  padding-left: 2rem;
-  line-height: 1.6;
 }
 
 
