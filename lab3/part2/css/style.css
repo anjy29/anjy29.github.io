@@ -1,8 +1,16 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
+ 
+body {
+  font-family: "Quicksand", serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+
 
 .google-sans-heading {
   font-family: "Google Sans", sans-serif;
@@ -23,28 +31,29 @@ html {
   background-color: white;
 }
 
-body {
-  font-family: "Quicksand", serif;
-  line-height: 1.6;
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
 h1, h2{
-  font-family: "Google Sans", serif;
+  font-family: "Roboto Slab", serif;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 
 header {
   border-bottom: 5px solid #aa6666;
-  padding: 10px 0;
+
 }
 
-header h1 {
+h1 {
   font-family: "Google Sans", serif;
+  font-size: 2,5rem;
   text-align: center;
+  letter-spacing: 2px;
+}
+
+
+h2 {
+  font-family: "Google Sans", serif;
+  font-size: 1.8rem;
+  margin-bottom: 0;
   letter-spacing: 1px;
 }
 
@@ -64,11 +73,6 @@ main {
   padding: 20px 0;
 }
 
-h2 {
-  font-family: "Google Sans", serif;
-  margin-bottom: 0;
-  letter-spacing: 0.5px;
-}
 
 section p:first-of-type {
   text-indent: 2rem;
@@ -82,12 +86,12 @@ p {
 a {
   color: #aa6666;
   text-decoration: underline;
-  outline: none;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
+  outline: none;
 }
 
 a[href^="http"]::after {
@@ -108,10 +112,6 @@ ul, ol {
   line-height: 1.6;
 }
 
-ul li {
-  list-style-type: disc;
-}
-
 ol li {
   list-style-type: decimal;
 }
@@ -122,15 +122,15 @@ nav ul {
 }
 
 nav li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 nav a {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  background-color: #aa6666;
-  color: white;
+  background-color: #f7f7f7;
+  color: #aa6666;
   padding: 0.8rem 0;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
