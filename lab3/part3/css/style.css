@@ -42,21 +42,12 @@ nav a {
   font-weight: bold;
 }
 
-.layout {
+.grid {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
   margin: 20px auto;
   max-width: 980px;
-}
-
-/* article 3x aside */
-article {
-  flex: 3;
-}
-
-aside {
-  flex: 1;
 }
 
 .feature {
