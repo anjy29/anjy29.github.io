@@ -20,7 +20,7 @@ body {
 
 nav {
   background-color: black;
-  padding: 0.5em 0;
+  padding: 0.5em ;
   position: sticky;
   top: 0;
   left: 0;
@@ -50,14 +50,18 @@ nav a {
   max-width: 980px;
 }
 
+article h1 {
+  margin-bottom: 20px;
+}
+
+
 .feature {
   float: left;
-  margin: 20px 20px 20px 0;
-  width: 300px;
+  margin: 0 20px 20px 0;
+  width: 200px;
 }
 
 .photos {
-
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
