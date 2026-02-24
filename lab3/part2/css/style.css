@@ -4,10 +4,37 @@
   padding: 0;
 }
 
+.google-sans-heading {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+.quicksand-text {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   background-color: white;
 }
 
+body {
+  font-family: "Quicksand", serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+h1, h2{
+  font-family: "Google Sans", serif;
+
+}
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 
 header {
@@ -16,10 +43,9 @@ header {
 }
 
 header h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 2.5rem;
+  font-family: "Google Sans", serif;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 footer {
@@ -33,43 +59,45 @@ footer p {
 
 main {
   display: grid;
-  grid-template-columns:  2fr 2fr;
+  grid-template-columns: 5fr 2fr 2fr;
   gap: 40px;
   padding: 20px 0;
 }
 
 h2 {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.8rem;
+  font-family: "Google Sans", serif;
   margin-bottom: 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
-section h2 + p {
+section p:first-of-type {
   text-indent: 2rem;
 }
 
 p {
   margin: 1rem 0;
+  letter-spacing: 0.3px;
 }
 
 a {
   color: #aa6666;
   text-decoration: underline;
-
-}
-
-a:hover, a:focus {
-  text-decoration: none;
   outline: none;
 }
 
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
 a[href^="http"]::after {
+
   content: "";
   display: inline-block;
   width: 0.8em;
   height: 0.8em;
   margin-left: 0.25em;
+
   background-size: 100%;
   background-image: url("../images/external-link-52.png");
 }
@@ -94,23 +122,23 @@ nav ul {
 }
 
 nav li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 nav a {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  background-color: #f5f0f0;
-  color: #aa6666;
-  padding: 1rem;
+  background-color: #aa6666;
+  color: white;
+  padding: 0.8rem 0;
   text-decoration: none;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 aside ul {
   list-style: none;
-  padding-left: 0;
+  padding-left: 1.;
 }
 
 aside li {
