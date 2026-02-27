@@ -11,13 +11,6 @@ body {
   font: 1.2em / 1.5 system-ui;
 }
 
-ul {
-  background-color: #eeeeee;
-  border: 5px solid purple;
-  padding: 30px;
-  border-radius: 20px;
-}
-
 h1 {
   color: darkslategray;
   font-size: 2rem;
@@ -32,6 +25,14 @@ h2 {
 div.job-title {
   color: darkslategray;
   font-weight: bold;
+}
+
+
+ul {
+  background-color: #eeeeee;
+  border: 5px solid purple;
+  padding: 30px;
+  border-radius: 20px;
 }
 
 
