@@ -82,7 +82,6 @@ a[href*="http"] {
 a:link,
 a:visited {
   color: #aa6666;
-  text-decoration: underline;
 }
 
 a:focus,
@@ -94,8 +93,6 @@ a:hover {
 ul, 
 ol {
   margin: 1rem 0;
-  padding-left: 2rem;
-  line-height: 1.6;
 }
 
 ul {
@@ -116,11 +113,6 @@ nav li {
   list-style-type: none;
   margin-bottom: 1rem;
 }
-
-html {
-  background-color: white;
-}
-
 
 nav li a {
   font-family: "Bevan", serif;
