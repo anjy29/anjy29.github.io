@@ -22,8 +22,8 @@ const images = [
 ];
  
 
-const baseURL = "https://mdn.github.io/shared-assets/images/examples/learn/gallery/";
-//const baseURL = "./images/"
+//const baseURL = "https://mdn.github.io/shared-assets/images/examples/learn/gallery/";
+const baseURL = "./Images/"
 
 // LOOP STARTING AT 1
 
