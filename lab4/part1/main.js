@@ -5,12 +5,12 @@
 
 
 
-// 1. VARIABLES
+// VARIABLES
 const customName = document.getElementById("custom-name");
 const generateBtn = document.querySelector(".generate");
 const story = document.querySelector(".story");
 
-// 2. ARRAYS
+//  ARRAYS
 const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const insertY = ["the soup kitchen", "Disneyland", "the White House"];
 const insertZ = [
@@ -25,7 +25,7 @@ function randomValueFromArray(array) {
   return array[random];
 }
 
-// 3. STORY FUNCTION
+//  STORY FUNCTION
 function returnRandomStoryString() {
   const xItem = randomValueFromArray(insertX);
   const yItem = randomValueFromArray(insertY);
@@ -36,11 +36,11 @@ function returnRandomStoryString() {
   return storyText;
 }
 
-  // 4. EVENT LISTENER
+  //  EVENT LISTENER
   generateBtn.addEventListener("click", result);
 
 
-  // 5. MAIN FUNCTION
+  //  MAIN FUNCTION
   function result() {
   let newStory = returnRandomStoryString();
 

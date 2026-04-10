@@ -1,6 +1,6 @@
 /*  
   Name: Anjy Alassaf
-  File: index.html
+  File: main.js
   Date: March 30, 2026
   Description: Bouncing balls with EvilCircle (
 */
