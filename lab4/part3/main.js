@@ -1,8 +1,9 @@
 /*
-Name: Anjy Alassaf
-    File: main.js
-    Date: march 23,2026
-    Description: This project shows bouncing balls using JavaScript and Canvas
+  Name: Anjy Alassaf
+  File: main.js
+  Date: march 23,2026
+  Description: This project shows bouncing balls using JavaScript and Canvas
+  
 */
 
 
