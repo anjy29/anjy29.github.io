@@ -35,10 +35,10 @@ const nameField = document.querySelector('#name');
 const commentField = document.querySelector('#comment');
 const list = document.querySelector('.comment-container');
 
-form.onsubmit = function(e) {
+form.addEventListener('submit', function(e) {
   e.preventDefault();
   submitComment();
-};
+});
 
 function submitComment() {
   const listItem = document.createElement('li');

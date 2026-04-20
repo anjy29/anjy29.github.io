@@ -7,19 +7,36 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #dde;
+  background-color: #f5f5f5;
 }
 
 body {
   width: 80%;
   min-width: 1024px;
   margin: 0 auto;
+  background-color: white;
 }
 
 /* || typography */
 
-font[size="7"], font[size="6"], font[size="5"] {
+h1 {
   font-family: 'Sonsie One', cursive;
+   font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-family: 'Sonsie One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+h3 {
+  font-family: 'Sonsie One', cursive;
+  font-size: 2.2rem;
   color: #2a2a2a;
 }
 
@@ -28,71 +45,68 @@ p, input, li, table, label {
   color: #2a2a2a;
 }
 
-font[size="7"] {
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-font[size="6"] {
-  font-size: 3rem;
-  text-align: center;
-}
-
-font[size="5"] {
-  font-size: 2.2rem;
-}
-
 p, li, table {
   font-size: 1.6rem;
   line-height: 1.5;
 }
 
+
 /* || header layout */
 
-div[class="nav"], article, footer, .secondary {
-  background-color: green;
+header {
+  background-color: #2c3e50;
+  padding: 20px;
 }
 
-article, footer, .secondary {
+
+article, .secondary {
+  background-color: #ffffff;
   padding: 10px 30px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 30px;
+}
+
+article {
+  padding: 10px ;
 }
 
 article {
   margin-right: 10px;
 }
 
-div[class="nav"] {
+nav {
   height: 50px;
-  background-color: ff80ff;
+  background-color: #34495e;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
 }
 
-div[class="nav"] ul {
+nav ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-div[class="nav"] li {
-  display: inline;
+nav li {
   text-align: center;
   flex: 1;
 }
 
-div[class="nav"] a {
+nav a {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-div[class="nav"] .search {
+nav .search {
   flex: 1;
   display: flex;
   align-items: center;
@@ -112,7 +126,7 @@ div[class="nav"] .search {
 .search input[type="submit"] {
   flex: 1;
   margin-left: 1rem;
-  background: #333;
+  background: #000;
   border: 0;
   color: white;
 }
@@ -139,7 +153,7 @@ footer {
 
 table {
   width: 100%;
-  background-color: #dde;
+  background-color: #ffffff;
   border-collapse: collapse;
 }
 
@@ -152,11 +166,11 @@ td {
 }
 
 th[scope="col"] {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #def;
+  background-color: #f0f0f0
 }
 
 /* styling content images and audio */
@@ -173,20 +187,19 @@ audio {
 /* Comments styling */
 
 .comments {
-  background-color: #def;
+  background-color: #f0f0f0;
   padding: 10px;
 }
 
 .show-hide {
   cursor: pointer;
-}
-
-.comments font[size="6"] {
-  font-size: 2rem;
-}
-
-.comments font[size="6"]:nth-of-type(2) {
-  margin-bottom: 0;
+  text-align: center;
+  width: 150px;
+  font-size: 1.6rem;
+  line-height: 32px;
+  background: #000;
+  border: 0;
+  color: white;
 }
 
 .comment-form {
@@ -207,28 +220,18 @@ audio {
 .comment-form input {
   margin-left: 1rem;
   flex: 6;
-}
-
-.show-hide {
-  text-align: center;
-  width: 150px;
-}
-
-.comment-form input, .comment-form label, .show-hide {
   font-size: 1.6rem;
   line-height: 32px;
 }
 
-.comment-form input[type="submit"], .show-hide {
-  background: #333;
-  border: 0;
-  color: white;
-}
 
 .comment-form input[type="submit"] {
   width: 30%;
   display: block;
   margin: 0 auto;
+  background: #000;
+  border: 0;
+  color: white;
 }
 
 .comment-container {
